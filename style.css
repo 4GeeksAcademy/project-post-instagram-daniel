@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+.container {
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.post {
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    font-family: 'Roboto';
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.post-header div {
+    display: flex;
+    align-items: center;
+}
+
+.post-header div:first-child {
+    display: flex;
+}
+
+.post-header span {
+    font-size: 14px;
+}
+
+.post-header i {
+    font-size: 28px;
+    margin-right: 10px;
+}
+
+.post-header i:last-child {
+    font-size: 32px;
+    margin-right: 6px;
+}
+
+.post-img img {
+    width: 100%;
+}
+
+.post-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.post-icons div:first-child {
+    display: flex;
+    justify-content: space-around;
+    gap: 12px;
+}
+.post-icons div:last-child {
+    margin-right: 10px;
+}
+
+.post-icons i {
+    font-size: 28px;
+}
+
+p {
+    padding: 4px 8px 4px 8px;
+    font-size: 14px;
+}
+
+p:nth-of-type(2) {
+    padding-bottom: 14px;
+}
